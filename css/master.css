@@ -611,7 +611,7 @@ footer {
  /* ------------------------------------------- */
 /*index page*/
 .index {
-  background-image: url("/Users/nadia/Documents/personal/website/css/img/desktop.png");
+  background-image: url("/Users/nadia/Documents/personal/website/css/img/desktop.jpeg");
   background-size: contain;
   position: absolute;
   background-position: center;
@@ -639,7 +639,7 @@ div.name > p {
 @media screen and (min-width: 600px) {
 
     .index {
-        background-image: url("/Users/nadia/Documents/personal/website/css/img/desktop.png");
+        background-image: url("/Users/nadia/Documents/personal/website/css/img/desktop.jpeg");
         background-size: contain;
         position: absolute;
         background-position: center;
@@ -665,7 +665,7 @@ div.name > p {
 
 /* about page */
 main.about {
-    background-image: url("/Users/nadia/Documents/personal/website/css/img/desktop.png");
+    background-image: url("/Users/nadia/Documents/personal/website/css/img/desktop.jpeg");
     background-size: contain;
     position: absolute;
     background-position: center;
@@ -709,7 +709,7 @@ div.write-up > p.tag-line{
 @media screen and (min-width: 600px) {
 
     main.about{
-        background-image: url("/Users/nadia/Documents/personal/website/css/img/desktop.png");
+        background-image: url("/Users/nadia/Documents/personal/website/css/img/desktop.jpeg");
         background-size: contain;
         position: absolute;
         background-position: center;
@@ -739,3 +739,85 @@ div.write-up > p.tag-line{
 /* --------------- */
 
 /* profile page */
+/*
+main.port {
+    background-image: url("/Users/nadia/Documents/personal/website/css/img/desktop.jpeg");
+    background-size: contain;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    top: 80px;
+}*/
+
+div.profile {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    clear: both;
+    top: 100px;
+    text-align: center;
+}
+
+div.profile > h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+div.one {
+    max-height: 350px;
+    max-width: 200px;
+    overflow: hidden;
+    float: left;
+    padding: 10px;
+    margin-left: 250px;
+    border: solid white 10px;
+}
+
+.img-one{
+    position: relative;
+    left: -100px;
+}
+
+div.two {
+    max-height: 350px;
+    max-width: 200px;
+    overflow: hidden;
+    float: left;
+    padding: 10px;
+    border: solid white 10px;
+}
+
+.img-two{
+    position: relative;
+    left: -100px;
+}
+
+div.three {
+    max-height: 350px;
+    max-width: 200px;
+    overflow: hidden;
+    float: left;
+    padding: 10px;
+    border: solid white 10px;
+}
+
+.img-three{
+    position: relative;
+    left: -200px;
+}
+
+div.four {
+    max-height: 350px;
+    max-width: 200px;
+    overflow: hidden;
+    float: left;
+    padding: 10px;
+    border: solid white 10px;
+}
+
+.img-four{
+    position: relative;
+    left: -200px;
+}

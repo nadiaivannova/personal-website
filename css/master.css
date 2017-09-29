@@ -739,17 +739,6 @@ div.write-up > p.tag-line{
 /* --------------- */
 
 /* profile page */
-/*
-main.port {
-    background-image: url("/Users/nadia/Documents/personal/website/css/img/desktop.jpeg");
-    background-size: contain;
-    position: absolute;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    top: 80px;
-}*/
 
 div.profile {
     position: absolute;
@@ -820,4 +809,17 @@ div.four {
 .img-four{
     position: relative;
     left: -200px;
+}
+
+.github{
+    clear: both;
+    background-image: url("/Users/nadia/Documents/personal/website/css/img/Octocat/Octocat.png"
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 650px;
+    top: 650px;
 }
